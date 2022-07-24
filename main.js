@@ -215,7 +215,7 @@ $(document).ready(function () {
             }
         }
         localStorage.setItem('data', JSON.stringify(localArray));
-        loadData_From_LocalStore
+        loadData_From_LocalStore()
     }
 
 });
